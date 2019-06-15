@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Doge</title>
+	
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="libraries/p5.gif.js"></script>
+	<script src="sketch.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<span id="score">SCORE: 0</span>
+	</div>
+	<div class="container2" id="container2">
+			<span>Game Over</span><br><br>
+			<button onclick="reset()">Restart &emsp;&#8635;</button>
+	</div>
+	<div class="container3" id="container3">
+		<button onclick="_play()">Play &emsp;&#9658;</button>
+	</div>
+	<button id="mute" onclick="_mute()">&#x1f507;</button>
+	<!-- ON: &#x1f50a;	OFF: &#x1f507; -->
+</body>
+</html>
